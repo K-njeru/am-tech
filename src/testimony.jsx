@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import CEOImage from '../src/assets/img/ceoam.png'
 
 const Testimony = () => {
     useEffect(() => {
@@ -32,7 +33,7 @@ const Testimony = () => {
                 <div id="testim-content" className="cont">
 
                     <div className="active">
-                        <div className="img"><img src="/src/assets/img/ceoam.png" alt="" style={{ position: 'relative', top: '15px' }}/></div>
+                        <div className="img"><img src={CEOImage} alt="" style={{ position: 'relative', top: '15px' }}/></div>
                         <h2>Athumani Makoti.</h2>
                         <h3>CEO - AM Tech</h3>
                         <p>At AM Technologies, our mission is to elevate you and your business through the magic of technology. 
