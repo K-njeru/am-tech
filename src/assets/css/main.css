@@ -425,14 +425,14 @@ margin-top: 67px;
     }
 }
 
-@media (min-width:730px) and (max-width:1290px)  {
+@media (min-width:768px) and (max-width:1290px)  {
     .service-card {
         width: 38vw;
     }
 }
-@media (max-width:730px) {
+@media (max-width:768px) {
     .service-card {
-        width: 70vw;
+        width: 97vw;
     }
 }
 .circle-icon {
