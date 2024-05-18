@@ -1,5 +1,9 @@
 import React, { useEffect } from 'react';
 import CEOImage from '../src/assets/img/ceoam.png'
+import DennisChari from '../src/assets/img/avatar4.png'
+import Faizah from '../src/assets/img/avatar5.png'
+import John from '../src/assets/img/avatar6.png'
+import Dean from '../src/assets/img/dean.png'
 
 const Testimony = () => {
     useEffect(() => {
@@ -44,7 +48,7 @@ const Testimony = () => {
                     </div>
 
                     <div>
-                        <div className="img"><img src="/src/assets/img/avatar4.png" alt=""/></div>
+                        <div className="img"><img src={DennisChari} alt=""/></div>
                         <h2>Dennis Chari.</h2>
                         <h3>Web Developer - AM Tech</h3>
                         <p>In my brief stint at AM Technologies, I've discovered a workplace culture that's more focused on customer
@@ -53,7 +57,7 @@ const Testimony = () => {
                     </div>
 
                     <div>
-                        <div className="img"><img src="/src/assets/img/avatar5.png" alt=""/></div>
+                        <div className="img"><img src={Faizah} alt=""/></div>
                         <h2>Faizah Omar.</h2>
                         <h3>Entrepreneur - Faizah Beauty</h3>
                         <p>AM has been my go-to for all design needs, from posters to banners and beyond.
@@ -61,7 +65,7 @@ const Testimony = () => {
                     </div>
 
                     <div>
-                        <div className="img"><img src="/src/assets/img/avatar6.png" alt=""/></div>
+                        <div className="img"><img src={John} alt=""/></div>
                         <h2>John Muinde.</h2>
                         <h3>Founder - Truepole Ltd.</h3>
                         <p>Understanding tech felt like solving a puzzle in a foreign language. Before, I'd just hand off work and get back a 
@@ -70,7 +74,7 @@ const Testimony = () => {
                     </div>
 
                     <div>
-                        <div className="img"><img src="/src/assets/img/dean.png" alt=""/></div>
+                        <div className="img"><img src={Dean} alt=""/></div>
                         <h2>Dean Kamen.</h2>
                         <p style={{height: '105px'}}>Every once in a while, a new technology, an old problem, and a big idea turn into an innovation.</p>                    
                     </div>
