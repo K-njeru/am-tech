@@ -30,8 +30,6 @@ function Mynavbar() {
 
     return (
         <>
-            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
-
             <nav className="navbar navbar-expand-md navbar-dark">
                 <img className="company-logo" src={companyLogo} alt="Company Logo" />
                 <a className="navbar-brand" href="#"><span style={{color: 'crimson'}}>AM</span> Technologies</a>
