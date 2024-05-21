@@ -127,15 +127,11 @@ a {
     text-align: center;
     line-height: 1;
     font-size: 22px;
-    right: 15px;
-    bottom: 30px;
+    right: 10px;
+    bottom: 10px;
     z-index: 9;
 }
-@media (max-width: 768px){
-    .back-to-top {
-        right: 65px;
-    }
-}
+
 .back-to-top i {
     color: seagreen;
 }
