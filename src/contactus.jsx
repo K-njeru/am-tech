@@ -8,7 +8,7 @@ function ContactForm() {
       <div className='container-fluid contactSection'>
       <div className="row flex-column-reverse flex-md-row contactRow">
         <div className="col-md-6 col-sm-12 contactCol">
-        <h3>Thank you for sharing your thoughts with us!</h3>
+        <h3  style={{color: 'crimson'}}>Thank you for sharing your thoughts with us!</h3>
         <p>Hold on tight, we will get back to you in a split second.</p>
         </div>
       <div className="col-md-6 col-sm-12  contact-content">
