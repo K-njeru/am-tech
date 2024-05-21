@@ -148,8 +148,8 @@ a {
     line-height: 1;
     font-size: 22px;
     border: 1px solid transparent !important;
-    left: 15px;
-    bottom: 30px;
+    left: 10px;
+    bottom: 10px;
     z-index: 9;
 }
 .badge-subhead {
