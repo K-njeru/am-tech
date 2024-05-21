@@ -329,6 +329,7 @@ display: none !important;
 @media (max-width: 865px) {
 .intro-head{
     font-size: 30px !important;
+    left: 0;
 }
 .hero-text p{
     width: 100%;
