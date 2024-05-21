@@ -5,10 +5,10 @@ import Faizah from '../src/assets/img/avatar5.png'
 import John from '../src/assets/img/avatar6.png'
 import Dean from '../src/assets/img/dean.png'
 
-const Testimony = () => {
+function Testimony() {
     useEffect(() => {
         const script = document.createElement('script');
-        script.src = '../src/assets/js/testimonials.js';
+        script.src = '/src/assets/js/testimonials.js';
         script.type = 'text/javascript';
         script.async = true;
         document.body.appendChild(script);
