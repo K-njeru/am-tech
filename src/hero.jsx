@@ -9,7 +9,11 @@ function HeroSection() {
             <div className="row">
                 {/* Text */}
                 <div className="col-md-6 col-sm-12 hero-col">
-                <h1 className="intro-head">Embark on a transformative journey with us...</h1>
+                {/*  <h1 className="intro-head">Embark on a <span>transformative</span> journey with us...</h1>  */}
+                <h1 className="intro-head">
+                Embark on a <span style={{'color': 'crimson'}}>transformative</span> journey with us...
+                <div class="typed-text" style={{'display': 'none'}}>transformative, amazing, exciting</div>
+                </h1>
                     <div className="hero-text"> 
                         <p>Guided by a passion for innovation, our team of tech virtuosos specializes in
                              crafting bespoke strategies tailored to your unique needs.

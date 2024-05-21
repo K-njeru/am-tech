@@ -27,22 +27,6 @@
   <link rel="stylesheet" href="/src/assets/css/main.css">
   
 </head>
-<script>
-  (function ($) {
-    "use strict";
-    
-    // loader
-    var loader = function () {
-        setTimeout(function () {
-            if ($('#loader').length > 0) {
-                $('#loader').removeClass('show');
-            }
-        }, 1);
-    };
-    loader();
-    
-  })(jQuery);
-</script>
 <body data-spy="scroll" data-target="#navbar" data-offset="51">
   
 <div id="root"></div>
@@ -51,11 +35,12 @@
   <a href="https://api.whatsapp.com/send?phone=254794298696" style="color: #49b2b2;" target="_blank" class="btn whatsapp"><i class="fab fa-whatsapp" style="font-size: 30px; color: #2ec714;"></i></a>
 <!-- Back to top button -->
 <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
- <!-- Pre Loader -->
+
+ <!-- Pre Loader 
  <div id="loader" class="show">
   <div class="loader"></div>
 </div>
-
+-->
 
 
 <!-- JavaScript bundle -->
