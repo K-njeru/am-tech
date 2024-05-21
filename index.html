@@ -27,7 +27,22 @@
   <link rel="stylesheet" href="/src/assets/css/main.css">
   
 </head>
-
+<script>
+  (function ($) {
+    "use strict";
+    
+    // loader
+    var loader = function () {
+        setTimeout(function () {
+            if ($('#loader').length > 0) {
+                $('#loader').removeClass('show');
+            }
+        }, 1);
+    };
+    loader();
+    
+  })(jQuery);
+</script>
 <body data-spy="scroll" data-target="#navbar" data-offset="51">
   
 <div id="root"></div>
@@ -40,6 +55,8 @@
  <div id="loader" class="show">
   <div class="loader"></div>
 </div>
+
+
 
 <!-- JavaScript bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
@@ -55,7 +72,7 @@
  <!-- custom Javascript -->
  <script src="/src/assets/js/testimonials.js"></script>
  <script src="/src/assets/js/main.js"></script>
- 
+
 <script type="module" src="/src/main.jsx"></script>
 
 
