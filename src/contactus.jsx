@@ -23,7 +23,7 @@ function ContactForm() {
   }
   return (
     <div className='container-fluid contactSection'>
-    <div className="row flex-column-reverse flex-md-row" style={{width: '80vw'}}>
+    <div className="row flex-column-reverse flex-md-row contactRow" >
       <div className="col-md-6 col-sm-12 contactCol">
         <form onSubmit={handleSubmit} className="contactform">
         <div className="form-group">
