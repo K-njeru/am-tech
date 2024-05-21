@@ -1759,7 +1759,15 @@ left: 10vw;
 position: relative;
 margin-bottom: 30px;
 }
+.contactRow {
+    width: 80vw;
+}
+
 @media (max-width: 768px) {
+.contactRow {
+        width: 97vw;
+}
+
 .contactSection {
     width: 100vw;
     left: 0;

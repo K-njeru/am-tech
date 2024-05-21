@@ -6,7 +6,7 @@ function ContactForm() {
   if (state.succeeded) {
       return (
       <div className='container-fluid contactSection'>
-      <div className="row flex-column-reverse flex-md-row" style={{width: '80vw'}}>
+      <div className="row flex-column-reverse flex-md-row contactRow">
         <div className="col-md-6 col-sm-12 contactCol">
         <h3>Thank you for sharing your thoughts with us!</h3>
         <p>Hold on tight, we will get back to you in a split second.</p>
