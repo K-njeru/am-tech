@@ -306,12 +306,17 @@ justify-content: center !important;
 height: max-content !important; 
 overflow: hidden;
 }
+@media (min-width: 768px) {
+.hero-text{
+    width: 70%;
+}
+}
 .hero-text{
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-width: 70%;
+
 }
 .hero-text p{
 width: 90%;
