@@ -35,7 +35,7 @@ body {
   }
   
   .theme-toggle .fas {
-    color: var(--text-color);
+    color: var(--background-color);
   }
 a {
     color: #313131;
