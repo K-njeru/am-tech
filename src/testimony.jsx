@@ -7,14 +7,18 @@ import Dean from '../src/assets/img/dean.png'
 
 function Testimony() {
     useEffect(() => {
-        const script = document.createElement('script');
-        script.src = '/src/assets/js/testimonials.js';
-        script.type = 'text/javascript';
-        script.async = true;
-        document.body.appendChild(script);
+        // Ensure testimonial JS is available
+        const loadScript = (url) => {
+            const script = document.createElement('script');
+            script.src = url;
+            script.async = true;
+            document.body.appendChild(script);
+        };
+
+        loadScript('/src/assets/js/testimonials.js');
 
         return () => {
-            document.body.removeChild(script);
+            // Cleanup scripts if necessary
         };
     }, []);
 

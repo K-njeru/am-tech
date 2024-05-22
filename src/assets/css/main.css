@@ -565,10 +565,14 @@ margin-top: 67px;
         width: 97vw !important;
     }
 }
-    
+@media (min-width: 768px) {
+    .banner{
+        width: 80vw !important;
+    }
+}
+     
 .banner{
 display: flex;
-width: 80vw !important;
 background: linear-gradient(#333333, #2e8b5785), url(/src/assets/img/amlogo.jpeg);
 background-size: cover;
 background-repeat: no-repeat;
