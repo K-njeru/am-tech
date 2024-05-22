@@ -44,6 +44,15 @@ function Mynavbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ml-auto">
+                    <li className="nav-item">
+                    <button onClick={toggleTheme} className="theme-toggle">
+                     {theme === 'dark' ? (
+                      <i className="fas fa-moon"></i>
+                     ) : (
+                      <i className="fas fa-sun"></i>
+                     )}
+                     </button>
+                     </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#home" onClick={hideNavbar}>Home</a>
                         </li>
@@ -57,13 +66,7 @@ function Mynavbar() {
                             <a className="nav-link" href="#contact" onClick={hideNavbar}>Contact</a>
                         </li>
                     </ul>
-                    <button onClick={toggleTheme} className="theme-toggle">
-      {theme === 'light' ? (
-        <i className="fas fa-moon"></i>
-      ) : (
-        <i className="fas fa-sun"></i>
-      )}
-    </button>
+             
                 </div>
             </nav>
         </>
