@@ -14,7 +14,7 @@
   }
   
   [data-theme='light'] {
-    --background-color: white;
+    --background-color: #F7EFE5;
     --text-color: #010e02;
   }
   
@@ -560,6 +560,12 @@ margin-top: 67px;
 /**********************************/
 /*********** Banner CSS **********/
 /**********************************/
+@media (max-width: 768px) {
+    .banner{
+        width: 97vw !important;
+    }
+}
+    
 .banner{
 display: flex;
 width: 80vw !important;
@@ -895,7 +901,6 @@ border-radius: 30px;
     border-radius: 50%;
     text-align: center;
     margin: 10px;
-    line-height: 100px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
