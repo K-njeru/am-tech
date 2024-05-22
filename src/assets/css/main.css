@@ -890,7 +890,7 @@ border-radius: 30px;
   height: fit-content;
   margin-bottom: 30px;
   overflow: hidden;
-  color: black;
+  color: var(--text-color);
 }
 .projects-row {
     align-items: center;
