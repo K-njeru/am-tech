@@ -11,7 +11,7 @@ import Accordion from './faqs.jsx';
 import Testimony from './testimony.jsx';
 import ContactForm from './contactus.jsx';
 import Footer from './footer.jsx';
-import { ThemeProvider, useTheme } from '../src/assets/js/ThemeContext.js';
+import { ThemeProvider, useTheme } from './ThemeContext.jsx';
 
 
 const App = () => {

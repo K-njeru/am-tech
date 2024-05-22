@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import '../src/assets/css/main.css';
 import companyLogo from '../src/assets/img/am logo.png';
-import { useTheme } from '../src/assets/js/ThemeContext.js';
+import { useTheme } from './ThemeContext.jsx';
 
 
 function Mynavbar() {
