@@ -19,8 +19,8 @@
   }
   
 body {
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
