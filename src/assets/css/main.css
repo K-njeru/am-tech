@@ -8,15 +8,35 @@
     margin: 0;
     overflow: hidden;
 } 
+:root {
+    --background-color: #010e02;
+    --text-color: white;
+  }
+  
+  [data-theme='light'] {
+    --background-color: white;
+    --text-color: #010e02;
+  }
+  
 body {
-    background: #010e02 !important;
+    background-color: var(--background-color);
+    color: var(--text-color);
     font-family: 'Montserrat', sans-serif;
-    color: white !important;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .theme-toggle .fas {
+    color: var(--text-color);
+  }
 a {
     color: #313131;
     transition: .3s;

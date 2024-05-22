@@ -1,3 +1,5 @@
+
+// src/App.js
 import React from 'react';
 import Mynavbar from './navbar.jsx';
 import HeroSection from './hero.jsx';
@@ -9,8 +11,16 @@ import Accordion from './faqs.jsx';
 import Testimony from './testimony.jsx';
 import ContactForm from './contactus.jsx';
 import Footer from './footer.jsx';
+import { ThemeProvider, useTheme } from '../src/assets/js/ThemeContext.js';
 
-function App() {
+
+const App = () => {
+  const { theme } = useTheme();
+
+  React.useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
+
   return (
     <div>
       <Mynavbar />
@@ -25,6 +35,13 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
-export default App;
+const Root = () => (
+  <ThemeProvider>
+    <App />
+  </ThemeProvider>
+);
+
+export default Root;
+

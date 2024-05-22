@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import '../src/assets/css/main.css';
 import companyLogo from '../src/assets/img/am logo.png';
+import { useTheme } from '../src/assets/js/ThemeContext.js';
+
 
 function Mynavbar() {
     // Function to handle hiding the navbar
@@ -27,7 +29,7 @@ function Mynavbar() {
             // Cleanup scripts if necessary
         };
     }, []);
-
+    const { theme, toggleTheme } = useTheme();
     return (
         <>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
@@ -55,6 +57,13 @@ function Mynavbar() {
                             <a className="nav-link" href="#contact" onClick={hideNavbar}>Contact</a>
                         </li>
                     </ul>
+                    <button onClick={toggleTheme} className="theme-toggle">
+      {theme === 'light' ? (
+        <i className="fas fa-moon"></i>
+      ) : (
+        <i className="fas fa-sun"></i>
+      )}
+    </button>
                 </div>
             </nav>
         </>
