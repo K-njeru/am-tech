@@ -1810,7 +1810,7 @@ margin-bottom: 30px;
     border-radius: 22px ;
     background: gainsboro;
     padding: 32px;
-    color: crimson;
+    color: var(--text-color);
     font-family: "Poppins", sans-serif;
 }
 .form-control {

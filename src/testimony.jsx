@@ -6,7 +6,7 @@ import John from '../src/assets/img/avatar6.png'
 import Dean from '../src/assets/img/dean.png'
 
 function Testimony() {
-    useEffect(() => {
+    /* useEffect(() => {
         // Ensure testimonial JS is available
         const loadScript = (url) => {
             const script = document.createElement('script');
@@ -21,14 +21,12 @@ function Testimony() {
             // Cleanup scripts if necessary
         };
     }, []);
-
+*/
     return (
 <div className="container-fluid testimonials">
 <section id="testim" className="testim">
          <div className="testim-cover">
             <div className="wrap">
-        
-            
                 <span id="right-arrow" className="arrow right fa fa-chevron-right"></span>
                 <span id="left-arrow" className="arrow left fa fa-chevron-left "></span>
                 <ul id="testim-dots" className="dots">
