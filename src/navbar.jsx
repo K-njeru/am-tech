@@ -29,7 +29,14 @@ function Mynavbar() {
             // Cleanup scripts if necessary
         };
     }, []);
+
     const { theme, toggleTheme } = useTheme();
+
+    //Create a combined function to handle both actions
+    const handleToggleThemeAndHideNavbar = () => {
+    toggleTheme();
+    hideNavbar();
+    };
     return (
         <>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
@@ -45,7 +52,7 @@ function Mynavbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                    <button onClick={toggleTheme} className="theme-toggle">
+                    <button onClick={handleToggleThemeAndHideNavbar} className="theme-toggle">
                      {theme === 'dark' ? (
                       <i className="fas fa-moon"></i>
                      ) : (

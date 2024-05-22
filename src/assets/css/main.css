@@ -277,11 +277,15 @@ background: transparent;
 }
 @media (max-width: 767px) {
     .navbar-nav .nav-item {
-        display: block;
+        display: flex;
         border: 2px solid seagreen;
-        margin: 17px;
+        margin-top: 17px;
+        height: 45px;
+        cursor: pointer;
+        margin-left: 2.5vw;
         padding: 5px;
         width: 95vw;
+        align-items: center;
     }
 
     .navbar-collapse {
