@@ -308,7 +308,7 @@ background: transparent;
 /*********** Hero CSS **********/
 /**********************************/
 .hero{
-background: linear-gradient(#333333, #2e8b5785), url(/src/assets/img/It.jpg );
+background: linear-gradient(#333333, #2e8b5785), url(../img/It.jpg );
 background-size: cover;
 background-repeat: no-repeat;
 object-fit: cover;
