@@ -65,7 +65,7 @@ const Footer = () => {
                                             <i className="fas fa-map-marker-alt"></i>
                                         </div>
                                         <div className="info">
-                                            <p style={{color: '#7a808d'}}>125, Park street Mombasa Road,<span>Nairobi.</span></p>
+                                            <p>125, Park street Mombasa Road,<span>Nairobi.</span></p>
                                         </div>
                                     </div>
                                 </div>
