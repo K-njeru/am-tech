@@ -1798,7 +1798,7 @@ margin-bottom: 30px;
 
 @media (max-width: 768px) {
 .contactRow {
-        width: 105vw;
+        width: 104vw;
 }
 
 .contactSection {
@@ -1814,8 +1814,10 @@ margin-bottom: 30px;
     border-radius: 22px ;
     background: gainsboro;
     padding: 32px;
-    color: var(--text-color);
-    font-family: "Poppins", sans-serif;
+    color: crimson;
+    font-family: 'Caveat';
+    font-size: 20px;
+    font-weight: 800;
 }
 .form-control {
 font-family: monospace;
