@@ -475,14 +475,14 @@ margin-top: 67px;
   
 .card1{
     
-    background: linear-gradient(#24292eb0, #010f1c), url(/src/assets/img/website.jpg );
+    background: linear-gradient(#24292eb0, #010f1c), url(../img/website.jpg );
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     height: 450px;
 }
 .card2 {
-    background: linear-gradient(#050a0b, #030505bf), url(/src/assets/img/software.jpg);
+    background: linear-gradient(#050a0b, #030505bf), url(../img/software.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -577,7 +577,7 @@ margin-top: 67px;
      
 .banner{
 display: flex;
-background: linear-gradient(#333333, #2e8b5785), url(/src/assets/img/amlogo.jpeg);
+background: linear-gradient(#333333, #2e8b5785), url(../img/amlogo.jpeg);
 background-size: cover;
 background-repeat: no-repeat;
 position: relative;
