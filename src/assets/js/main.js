@@ -56,15 +56,5 @@
         }
     });
 
-    // Typed Initiate
-    if ($('.hero .hero-col .intro-head').length == 1) {
-        var typed_strings = $('.hero .hero-col .intro-head .typed-text').text();
-        var typed = new Typed('.hero .hero-col .intro-head span', {
-            strings: typed_strings.split(', '),
-            typeSpeed: 100,
-            backSpeed: 20,
-            smartBackspace: false,
-            loop: true
-        });
-    }
+    
 })(jQuery);
