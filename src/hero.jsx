@@ -23,10 +23,10 @@ function HeroSection() {
             .then(() => {
                 const options = {
                     strings: ['', 'amazing', 'exciting'],
-                    typeSpeed: 1000,
+                    typeSpeed: 1000 / 5,
                     backSpeed: 20,
-                    backDelay: 10000,
-                    startDelay: 1000,
+                    backDelay: 5000,
+                    startDelay: 5000,
                     smartBackspace: false,
                     loop: true,
                 };
