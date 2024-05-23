@@ -22,7 +22,7 @@ function HeroSection() {
         loadScript('https://cdn.jsdelivr.net/npm/typed.js@2.0.12')
             .then(() => {
                 const options = {
-                    strings: ['', 'amazing', 'exciting'],
+                    strings: ['transformative', 'amazing', 'exciting'],
                     typeSpeed: 200,
                     backSpeed: 20,
                     backDelay: 5000,
@@ -47,7 +47,7 @@ function HeroSection() {
                 {/* Text */}
                 <div className="col-md-6 col-sm-12 hero-col">
                     <h1 className="intro-head">
-                        Embark on a <br /> <span style={{ color: 'crimson' }} ref={typedElement}>transformative</span> <br />journey with us...
+                        Embark on a <br /> <span style={{ color: 'crimson' }} ref={typedElement}></span> <br />journey with us...
                     </h1>
                     <div className="hero-text">
                         <p>Guided by a passion for innovation, our team of tech virtuosos specializes in
