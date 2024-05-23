@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import '../src/assets/css/main.css';
-import companyLogo from '../src/assets/img/am logo.png';
+import '../../public/assets/css/main.css'
+import companyLogo from '../../public/assets/img/am logo.png';
 import { useTheme } from './ThemeContext.jsx';
 
 

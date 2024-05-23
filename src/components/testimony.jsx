@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import CEOImage from '../src/assets/img/ceoam.png';
-import DennisChari from '../src/assets/img/avatar4.png';
-import Faizah from '../src/assets/img/avatar5.png';
-import John from '../src/assets/img/avatar6.png';
-import Dean from '../src/assets/img/dean.png';
+import CEOImage from '../../public/assets/img/ceoam.png';
+import DennisChari from '../../public/assets/img/avatar4.png';
+import Faizah from '../../public/assets/img/avatar5.png';
+import John from '../../public/assets/img/avatar6.png';
+import Dean from '../../public/assets/img/dean.png';
 
 function Testimony() {
     useEffect(() => {

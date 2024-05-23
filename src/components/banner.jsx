@@ -1,6 +1,7 @@
 import React from "react";
-import bannerImage from '../src/assets/img/afro.jpg'
-import '../src/assets/css/main.css'
+import bannerImage from '../../public/assets/img/afro.jpg'
+import '../../public/assets/css/main.css'
+
 
 function Banner(){
 return(

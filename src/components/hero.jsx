@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import companyLogo from '../src/assets/img/greenleaf-logo-nobg3.png';
-import heroImage from '../src/assets/img/phonemock.png';
-import '../src/assets/css/main.css';
+import heroImage from '../../public/assets/img/phonemock.png';
+import '../../public/assets/css/main.css'
 
 function HeroSection() {
     const typedElement = useRef(null);

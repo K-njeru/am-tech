@@ -1,7 +1,7 @@
 import React from 'react';
-import networkImage from '../src/assets/img/phonemock.png'
-import logodesignImage from '../src/assets/img/logodesign2-preview.png'
-import digitalImage from '../src/assets/img/services.png'
+import networkImage from '../../public/assets/img/phonemock.png'
+import logodesignImage from '../../public/assets/img/logodesign2-preview.png'
+import digitalImage from '../../public/assets/img/services.png'
 
 function Services() {
   return (
