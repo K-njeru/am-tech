@@ -1,17 +1,17 @@
 
 // src/App.js
 import React from 'react';
-import Mynavbar from './navbar.jsx';
-import HeroSection from './hero.jsx';
-import Services from './services.jsx';
-import Banner from './banner.jsx';
-import ChooseUsSection from './chooseus.jsx';
-import ProjectsDone from './projects.jsx';
-import Accordion from './faqs.jsx';
-import Testimony from './testimony.jsx';
-import ContactForm from './contactus.jsx';
-import Footer from './footer.jsx';
-import { ThemeProvider, useTheme } from './ThemeContext.jsx';
+import Mynavbar from './components/navbar.jsx'
+import HeroSection from './components/hero.jsx';
+import Services from './components/services.jsx';
+import Banner from './components/banner.jsx';
+import ChooseUsSection from './components/chooseus.jsx';
+import ProjectsDone from './components/projects.jsx';
+import Accordion from './components/faqs.jsx';
+import Testimony from './components/testimony.jsx';
+import ContactForm from './components/contactus.jsx';
+import Footer from './components/footer.jsx';
+import { ThemeProvider, useTheme } from './components/ThemeContext.jsx';
 
 
 const App = () => {
