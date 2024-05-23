@@ -1022,7 +1022,7 @@ border-radius: 30px;
 }
 .deneb_footer  .widget_link ul li a {
     text-transform: capitalize;
-    color: #7a808d;
+    color: var(--text-color);
     text-decoration: none;
 }
 .deneb_footer  .widget_link ul li a:hover,
@@ -1041,7 +1041,7 @@ border-radius: 30px;
     margin-right: 10px;
 }
 .deneb_footer  .widget_contact .contact_info .single_info .info p a {
-    color: #7a808d;
+    color: var(--text-color);
     text-decoration: none;
 }
 .deneb_footer  .widget_contact .contact_info .single_info .info p span {
