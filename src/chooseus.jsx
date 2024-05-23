@@ -9,7 +9,7 @@ function ChooseUsSection() {
     <div className="row">
       <div className="section-head col-sm-12">
         <h4><span>Why Choose</span> Us?</h4>
-        <p>When you choose us, you'll feel the benefit of years of experience of IT Excellence ; We know the digital world and we know that how to handle it.</p>
+        <p>When you choose us, you'll feel the benefit of years of experience in IT Excellence ; We know the digital world and we know how to handle it.</p>
       </div>
       <div className="col-lg-4 col-sm-6">
         <div className="item"> <span className="icon feature_box_col_one"><i className="fa fa-globe"></i></span>
