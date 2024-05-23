@@ -22,7 +22,7 @@ function HeroSection() {
         loadScript('https://cdn.jsdelivr.net/npm/typed.js@2.0.12')
             .then(() => {
                 const options = {
-                    strings: ['transformative', 'amazing', 'exciting'],
+                    strings: ['transformative', 'special', 'satisfactory'],
                     typeSpeed: 200,
                     backSpeed: 20,
                     backDelay: 5000,
