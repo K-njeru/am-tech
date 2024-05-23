@@ -26,6 +26,7 @@ function HeroSection() {
                     typeSpeed: 200,
                     backSpeed: 20,
                     backDelay: 5000,
+                    startDelay: 5000,
                     smartBackspace: false,
                     loop: true,
                 };
