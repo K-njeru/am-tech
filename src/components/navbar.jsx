@@ -54,9 +54,9 @@ function Mynavbar() {
                     <li className="nav-item">
                     <button onClick={handleToggleThemeAndHideNavbar} className="theme-toggle">
                      {theme === 'dark' ? (
-                      <i className="fas fa-moon"></i>
+                      <i className="fas fa-sun" style={{ color: "white" }}></i>        
                      ) : (
-                      <i className="fas fa-sun"></i>
+                      <i className="fas fa-moon"style={{ color: "black" }}></i>
                      )}
                      </button>
                      </li>
